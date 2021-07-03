@@ -1,3 +1,4 @@
+import React from "react";
 import { GameCompleteScreen } from ".";
 import { Meta } from "@storybook/react/types-6-0";
 

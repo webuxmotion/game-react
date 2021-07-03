@@ -1,8 +1,5 @@
-import { FC } from 'react';
-import { Heading as StyledHeading } from './styles';
+import styled from "styled-components";
 
-export const Heading: FC = ({ children }) => {
-  return (
-    <StyledHeading>{children}</StyledHeading>
-  )
-}
+export const Heading = styled.h1`
+  font-size: ${(props) => props.theme.fontSize[1]};
+`;

@@ -6,8 +6,4 @@ export default {
     title: `Small Components/Health`,
 } as Meta;
 
-export const Index = () => <div>
-    <Health health={3} />
-    <Health health={6} />
-    <Health health={9} />
-</div>;
+export const Index = () => <Health health={3} />;
