@@ -13,6 +13,8 @@
     "@types/react-dom": "^17.0.0",
     "@types/styled-components": "^5.1.11",
     "@xstate/react": "^1.4.0",
+    "expo": "^42.0.0",
+    "expo-cli": "^4.7.2",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -29,7 +31,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "build-static-webapp":"expo build:web"
+    "build-static-webapp": "expo build:web"
   },
   "eslintConfig": {
     "extends": [
