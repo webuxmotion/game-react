@@ -32,7 +32,7 @@ interface PropsType {
 }
 
 export const Player = ({ actor }: PropsType) => {
-    const [state, send] = useActor(actor);
+    const [state, send]: [any, any] = useActor(actor);
     const { coords, health } = state.context;
     const position = coordsToPosition(coords);
 
