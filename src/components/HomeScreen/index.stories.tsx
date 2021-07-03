@@ -1,10 +1,11 @@
-import { Meta } from '@storybook/react/types-6-0';
-import { HomeScreen } from '.';
+import React from "react";
+import { HomeScreen } from ".";
+import { Meta } from "@storybook/react/types-6-0";
 
 export default {
-  title: `Menu Screens/HomeScreen`
-} as Meta
+  title: `Menu Screens/HomeScreen`,
+} as Meta;
 
 const mockFunction = () => {};
 
-export const Index = () => <HomeScreen onStartGameButtonClick={mockFunction} />
+export const Index = () => <HomeScreen onStartButtonClick={mockFunction} />;

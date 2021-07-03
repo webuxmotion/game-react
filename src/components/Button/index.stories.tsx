@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from ".";
 import { Meta } from "@storybook/react/types-6-0";
 

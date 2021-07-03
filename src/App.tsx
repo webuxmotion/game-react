@@ -1,3 +1,3 @@
-import React from 'react';
+import { Game } from './components/Game';
 
-export const App = () => <div>app placeholder</div>
+export const App = () => <Game />

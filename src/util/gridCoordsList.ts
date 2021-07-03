@@ -1,7 +1,7 @@
 import { flatten } from "lodash";
-import { NUMBER_OF_GRID_COLS, NUMBER_OF_GRID_ROWS } from "../constants";
+import { NUMBER_OF_GRID_COLUMNS, NUMBER_OF_GRID_ROWS } from "../constants";
 
-const row = (rowLevel: number) => Array(NUMBER_OF_GRID_COLS)
+const row = (rowLevel: number) => Array(NUMBER_OF_GRID_COLUMNS)
   .fill(undefined)
   .map((_, index) => [index, rowLevel]);
 
